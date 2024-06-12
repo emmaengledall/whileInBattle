@@ -10,9 +10,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'AndaleMo': ['AndaleMo', 'Helvetica', 'Arial', 'sans-serif'],
-        // You can define multiple font families here as per your requirements
+        'mainFont': ['AndaleMo', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      fontFamily: {
+        'mainFont': ['apparat-light', 'sans-serif'],
+      },
+        // You can define multiple font families here as per your requirements
     },
   },
   plugins: [],
