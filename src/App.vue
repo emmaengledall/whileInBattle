@@ -15,10 +15,10 @@ import { RouterLink, RouterView } from 'vue-router'
  
 
       <!-- routerlink to other pages <33 -->
-      <nav>
+      <!-- <nav>
         <RouterLink to="/" class="z-10">Home</RouterLink>
         <RouterLink to="/about" class="z-10">About</RouterLink>
-      </nav>
+      </nav> -->
 
 
     </div>
