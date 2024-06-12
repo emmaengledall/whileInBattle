@@ -144,7 +144,7 @@ export default {
       faces05,
       bgPic,
       drawing: false,
-      maxLineWidth: 10, // Maximum line width for the brush effect
+      maxLineWidth: 2, // Maximum line width for the brush effect
       minLineWidth: 1, // Minimum line width for the brush effect
       lineWidthStep: 0.2, // Step for increasing/decreasing line width
       currentLineWidth: 1 // Current line width
