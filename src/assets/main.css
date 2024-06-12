@@ -2,9 +2,5 @@
 	@tailwind components;
 	@tailwind utilities;
 
-	@font-face {
-		font-family: 'Subway';
-		src: url('@/assets/fonts/andale-mono-cufonfonts-webfont/ANDALEMO.woff') format('woff');
-		/* Add other font formats if needed */
-	  }
+	
   
