@@ -21,7 +21,7 @@
       </div>
 
       <!-- Name tingeling -->
-      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-100 flex items-end font-mainFont">
+      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-100 flex items-end font-mainFont text-1xl">
         <p>A contemporary dance performance <br> by Hooman Sharifi</p>
       </div>
 
@@ -31,7 +31,7 @@
       <!-- empty rows - so i can seperate my things  SPACE -->
       <div class="col-start-1 col-span-4 row-start-2 h-32"></div> <!-- space between big pic and the info text-->
 
-      <div class="col-start-1 col-span-4 row-start-6 h-80"></div> <!-- space between info text and behind bla bla text-->
+      <div class="col-start-1 col-span-4 row-start-6 h-96"></div> <!-- space between info text and behind bla bla text-->
 
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
@@ -40,25 +40,30 @@
 
       <!-- informative stuff -->
       <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont">
-        <h1 class="text-2xl">When</h1>
-        <p class="text-sm">25, 26, 27, 28 and 29 th. of June</p>
+        <h1 class="text-4xl">When</h1>
+        <p class="text-1xl">25, 26, 27, 28 and 29 th. of June</p>
       </div>
 
       <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont">
-        <h1 class="text-2xl">Where</h1>
-        <p class="text-sm">Blågårds plads, Copenhagen N</p>
+        <h1 class="text-4xl">Where</h1>
+        <p class="text-1xl">Blågårds plads, Copenhagen N</p>
       </div>
 
       <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont">
-        <h1 class="text-2xl">What time</h1>
-        <p class="text-sm">20:00 until 21:30</p>
+        <h1 class="text-4xl">What time</h1>
+        <p class="text-1xl">20:00 until 21:30</p>
       </div>
 
       <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont">
-        <h1 class="text-2xl">Tickets</h1>
-        <p class="text-sm">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da"
+        <h1 class="text-4xl">Tickets</h1>
+        <p class="text-1xl">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da"
            class="underline">click here</a></p>
       </div>
+
+      <div class="absolute row-start-5 row-span-full col-start-1 col-span-4 opacity-100 size-11/12">
+  <img :src="bgPic" alt="woopss" class="w-screen h-auto">
+</div>
+      
 
 
 
@@ -127,6 +132,7 @@ import faces02 from '@/assets/pics/faces02.png';
 import faces03 from '@/assets/pics/faces03.png';
 import faces04 from '@/assets/pics/faces04.png';
 import faces05 from '@/assets/pics/faces05.png';
+import bgPic from '@/assets/pics/bgPic.png';
 
 export default {
   data() {
@@ -136,6 +142,7 @@ export default {
       faces03,
       faces04,
       faces05,
+      bgPic,
       drawing: false,
       maxLineWidth: 10, // Maximum line width for the brush effect
       minLineWidth: 1, // Minimum line width for the brush effect
