@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         'mainFont': ['apparat-light', 'sans-serif'],
       },
+      
+      fontFamily:{
+        'graffitiFont':['subway-new-york-sc', 'sans-serif'],
+      },
         // You can define multiple font families here as per your requirements
     },
   },

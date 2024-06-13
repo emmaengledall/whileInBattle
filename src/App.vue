@@ -14,11 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
  
 
-      <!-- routerlink to other pages <33 -->
-      <!-- <nav>
-        <RouterLink to="/" class="z-10">Home</RouterLink>
-        <RouterLink to="/about" class="z-10">About</RouterLink>
-      </nav> -->
+    
 
 
     </div>
