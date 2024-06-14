@@ -142,29 +142,95 @@
         <img :src="anastacia" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 size-3/12 left-52 opacity-70">
+       <div class="absolute row-start-7 col-start-3 size-3/12 left-52 opacity-70">
         <img :src="andreas" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-3 size-3/12 top-4 left-10 opacity-70">
+       <div class="absolute row-start-6 col-start-3 size-3/12 top-64 left-10 opacity-70">
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-1 size-2/12 left-32 opacity-70">
+       <div class="absolute row-start-5 col-start-1 size-3/12 left-32 opacity-70">
         <img :src="camille" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-1/12 left-10 opacity-70">
+       <div class="absolute row-start-9 col-start-1 size-2/12 left-10 opacity-70">
         <img :src="chiara" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-2/12 left-44 top-10 opacity-70">
+       <div class="absolute row-start-7 col-start-1 size-3/12 left-44 top-10 opacity-70">
         <img :src="elenor" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-2/12 left-44 top-20 opacity-70">
+       <div class="absolute row-start-10 col-start-1 size-3/12 left-44 top-20 opacity-70">
         <img :src="elin" alt="woopss" >
        </div>
+
+       <div class="absolute row-start-3 col-start-1 size-3/12 left-80 top-36 opacity-70">
+        <img :src="eliott" alt="woopss" >
+       </div>
+       
+
+       <div class="absolute row-start-2 col-start-1 size-3/12 left-80 top-36 opacity-70">
+        <img :src="eszter" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-2 col-start-2 size-3/12 left-80 top-36 opacity-70">
+        <img :src="freddy" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-5 col-start-2 size-4/12 left-80 top-36 opacity-70">
+        <img :src="gloria" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-4 col-start-2 size-3/12 left-80 top-36 opacity-70">
+        <img :src="ida" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-4 col-start-3 size-3/12 left-64 top-36 opacity-70">
+        <img :src="johanna" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-3 col-start-1 size-3/12 left-64 top-36 opacity-70">
+        <img :src="judith" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-5 col-start-1 size-3/12 left-5 top-20 opacity-70">
+        <img :src="lilian" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-6 col-start-1 size-3/12 left-5 top-64 opacity-70">
+        <img :src="mohammed" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-6 col-start-2 size-3/12 left-5 top-20 opacity-70">
+        <img :src="noam" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-6 col-start-1 size-3/12 left-5 top-12 opacity-70">
+        <img :src="omar" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-4 col-start-1 size-4/12 top-20 left-5 opacity-70">
+        <img :src="rebecca" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-7 col-start-3 size-8/12 top-20 left-5 opacity-70">
+        <img :src="Robin" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-8 col-start-3 size-9/12 top-20 left-5 opacity-70">
+        <img :src="vincent" alt="woopss" >
+       </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,6 +297,20 @@ import camille from '@/assets/pics/camille.png';
 import chiara from '@/assets/pics/chiara.png';
 import elenor from '@/assets/pics/elenor.png';
 import elin from '@/assets/pics/elin.png';
+import eliott from '@/assets/pics/Eliott.png';
+import eszter from '@/assets/pics/eszter.png';
+import freddy from '@/assets/pics/freddy.png';
+import gloria from '@/assets/pics/gloria.png';
+import ida from '@/assets/pics/ida.png';
+import johanna from '@/assets/pics/johanna.png';
+import judith from '@/assets/pics/judith.png';
+import lilian from '@/assets/pics/lilian.png';
+import mohammed from '@/assets/pics/mohammed.png';
+import noam from '@/assets/pics/noam.png';
+import omar from '@/assets/pics/omar.png';
+import rebecca from '@/assets/pics/rebecca.png';
+import Robin from '@/assets/pics/Robin.png';
+import vincent from '@/assets/pics/vincent.png';
 
 
 
@@ -259,6 +339,23 @@ export default {
       chiara,
       elenor,
       elin,
+      eliott,
+      eszter,
+      freddy,
+      gloria,
+      ida,
+      johanna,
+      judith,
+      lilian,
+      mohammed,
+      noam,
+      omar,
+      rebecca,
+      Robin,
+      vincent,
+
+
+
 
       faceoutline01,
       graffitiBrush, // Add the graffiti brush image to data
