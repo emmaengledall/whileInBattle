@@ -7,6 +7,7 @@ module.exports = {
     './src/**/*.js',   // Path to your JavaScript files
     // Add more paths as needed for your project
   ],
+  
   theme: {
     extend: {
       fontFamily: {
@@ -19,7 +20,7 @@ module.exports = {
         // You can define multiple font families here as per your requirements
     },
   },
-  plugins: [],
+  plugins: [], 
 }
 
 

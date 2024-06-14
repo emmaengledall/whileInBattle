@@ -46,6 +46,8 @@
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
 
+
+
    <!--    <div class="absolute row-start-5 row-span-full col-start-1 col-span-4 opacity-100 size-11/12 bg-moved-down">
   <img :src="bgPic" alt="woopss" class="w-screen h-auto">
     </div> -->
@@ -53,6 +55,8 @@
     <!-- <div class="absolute row-start-5 row-span-full col-start-1 col-span-4 opacity-100 size-11/12 bg-moved-down02">
   <img :src="bgPic02" alt="woopss" class="w-screen h-auto">
     </div> -->
+
+
 
 
       <!-- faces images - the united peeps-->
@@ -80,9 +84,11 @@
       </div>
 
 
-      <div class="col-start-1 row-start-5 size-4/5 place-self-center" style="position: relative; right: -80px; top: 15px;">
+      <div class="col-start-1 row-start-5 size-1/5 place-self-center" style="position: absolute; right: -80px; top: 15px;">
         <img :src="faceoutline01" alt="woopss" class="w-full h-auto">
       </div>
+
+
 
      
 
@@ -92,6 +98,8 @@
         <!-- <RouterLink to="/" class="z-10">Home</RouterLink>  -->
         <RouterLink to="/about" class="z-50">About</RouterLink>
       </nav> 
+
+
 
 
 
@@ -215,6 +223,6 @@ export default {
   margin-top: 1630px; /* Adjust this value as needed */
   margin-left: 40px;
 }
-</style>
+</style> 
 
 
