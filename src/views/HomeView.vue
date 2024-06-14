@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- whole window div -->
-    <div class="bg-zinc-100 w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5">
+    <div class="relative bg-zinc-900 w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5">
       <!-- Adjusted the grid rows to accommodate extra gap row -->
 
   
@@ -13,13 +13,17 @@
       </div>
 
       <!-- title for welcome page-->
-      <div class="text-9xl pl-24 pt-24 leading-normal col-start-1 col-span-4 row-start-1 z-0 font-graffitiFont text-red-600">
+     <!--  <div class="text-9xl pl-24 pt-24 leading-normal col-start-1 col-span-4 row-start-1 z-0 font-graffitiFont text-red-600">
         <h1 class="">WHILE IN BATTLE I'M FREE</h1>
         <h1 class="pl-96">NEVER FREE TO REST </h1>
+      </div> -->
+
+      <div class="col-start-1 row-start-1 1 pl-18 opacity-100 ">
+        <img :src="titel" alt="woopss" class="title-image">
       </div>
 
       <!-- Name tingeling -->
-      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl">
+      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-white">
         <p>A contemporary dance performance <br> by Hooman Sharifi</p>
       </div>
 
@@ -29,20 +33,20 @@
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
       <!-- informative stuff -->
-      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont">
-        <h1 class="text-4xl">When</h1>
+      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-white">
+        <h1 class="text-6xl">When</h1>
         <p class="text-1xl">25, 26, 27, 28 and 29 th. of June</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont">
-        <h1 class="text-4xl">Where</h1>
+      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-white">
+        <h1 class="text-6xl">Where</h1>
         <p class="text-1xl">Blågårds plads, Copenhagen N</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont">
-        <h1 class="text-4xl">What time</h1>
+      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-white">
+        <h1 class="text-6xl">What time</h1>
         <p class="text-1xl">20:00 until 21:30</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont">
-        <h1 class="text-4xl">Tickets</h1>
+      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-white">
+        <h1 class="text-6xl">Tickets</h1>
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
 
@@ -84,9 +88,13 @@
       </div>
 
 
-      <div class="col-start-1 row-start-5 size-1/5 place-self-center" style="position: absolute; right: -80px; top: 15px;">
+      <!-- <div class="col-start-1 row-start-5 size-1/5 place-self-center" style="position: absolute; right: -80px; top: 15px;">
         <img :src="faceoutline01" alt="woopss" class="w-full h-auto">
-      </div>
+      </div> -->
+
+     
+
+
 
 
 
@@ -104,7 +112,7 @@
 
 
       <!-- The "what's the performance about" tamtam -->
-      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 z-50">
+      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 z-50 text-white">
         <h1 class="text-2xl">Behind the performance</h1> <br>
         <p class="text-sm leading-8">
           Forestillingens titel er et citat af medborgerrettighedsaktivisten James Baldwin. While in battle I’m free, never free to rest. Er livet en kamp på liv og død? <br>
@@ -117,14 +125,84 @@
         </p>
       </div>
       
+         <!-- NAMESSS!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
+      <div class="absolute row-start-4 col-start-1 size-2/12 opacity-70">
+              <img :src="afra" alt="woopss" >
+            </div>
+
+      <div class="absolute row-start-4 col-start-2 size-2/12 top-20 opacity-70">
+        <img :src="ama" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-5 col-start-2 size-3/12 opacity-70">
+        <img :src="anand" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-5 col-start-3 size-3/12 opacity-70">
+        <img :src="anastacia" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-6 col-start-3 size-3/12 left-52 opacity-70">
+        <img :src="andreas" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-4 col-start-3 size-3/12 top-4 left-10 opacity-70">
+        <img :src="anna" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-5 col-start-1 size-2/12 left-32 opacity-70">
+        <img :src="camille" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-3 col-start-1 size-1/12 left-10 opacity-70">
+        <img :src="chiara" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-3 col-start-1 size-2/12 left-44 top-10 opacity-70">
+        <img :src="elenor" alt="woopss" >
+       </div>
+
+       <div class="absolute row-start-3 col-start-1 size-2/12 left-44 top-20 opacity-70">
+        <img :src="elin" alt="woopss" >
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+   
+      
+
+
+
 
       <!-- my canvas <33 -->
-      <div class="absolute inset-0 w-screen h-screen z-0">
+      <div class="absolute inset-0 w-screen h-screen z-10">
         <canvas ref="canvas"></canvas>
       </div>
-    </div>
+
   </main>
 </template>
+
+
+
+
+
+
+
+
+
+
 
 <script>
 import faceoutline01 from '@/assets/pics/faceoutline01.png'; 
@@ -140,6 +218,21 @@ import faces08 from '@/assets/pics/faces08.png';
 import bgPic from '@/assets/pics/bgPic.png';
 import bgPic02 from '@/assets/pics/bgPic02.png';
 import graffitiBrush from '@/assets/pics/graffitiBrush.png'; // Add your graffiti brush image
+import titel from '@/assets/pics/titel.png';
+
+// namesss!!!!!!!!!!!!!!!!!!
+import afra from '@/assets/pics/afra.png';
+import ama from '@/assets/pics/ama.png';
+import anand from '@/assets/pics/anand.png';
+import anastacia from '@/assets/pics/anastacia.png';
+import andreas from '@/assets/pics/andreas.png';
+import anna from '@/assets/pics/anna.png';
+import camille from '@/assets/pics/camille.png';
+import chiara from '@/assets/pics/chiara.png';
+import elenor from '@/assets/pics/elenor.png';
+import elin from '@/assets/pics/elin.png';
+
+
 
 export default {
   data() {
@@ -154,7 +247,18 @@ export default {
       faces08,
       bgPic,
       bgPic02,
-    
+      titel,
+
+      afra,
+      ama,
+      anand,
+      anastacia,
+      andreas,
+      anna,
+      camille,
+      chiara,
+      elenor,
+      elin,
 
       faceoutline01,
       graffitiBrush, // Add the graffiti brush image to data
@@ -212,6 +316,9 @@ export default {
 };
 </script>
 
+
+
+
 <style scoped>
 /* Add your CSS styles here */
 .bg-moved-down {
@@ -223,6 +330,15 @@ export default {
   margin-top: 1630px; /* Adjust this value as needed */
   margin-left: 40px;
 }
+
+.title-image {
+  transform: scale(3); /* Scale the image to 3 times its original size */
+  transform-origin: top left; /* Adjust the origin to control where the scaling is applied from */
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+
 </style> 
 
 
