@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- whole window div -->
-    <div class="relative bg-zinc-900 w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5">
+    <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5 bg-neutral-900">
       <!-- Adjusted the grid rows to accommodate extra gap row -->
 
   
@@ -18,7 +18,7 @@
         <h1 class="pl-96">NEVER FREE TO REST </h1>
       </div> -->
 
-      <div class="col-start-1 row-start-1 1 pl-18 opacity-100 ">
+      <div class="col-start-1 row-start-1 1 pl-18 opacity-70 ">
         <img :src="titel" alt="woopss" class="title-image">
       </div>
 
@@ -126,100 +126,100 @@
       </div>
       
          <!-- NAMESSS!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
-      <div class="absolute row-start-4 col-start-1 size-2/12 opacity-70">
+      <div class="absolute row-start-4 col-start-1 size-7/12 opacity-40">
               <img :src="afra" alt="woopss" >
             </div>
 
-      <div class="absolute row-start-4 col-start-2 size-2/12 top-20 opacity-70">
+      <div class="absolute row-start-9 col-start-3 size-7/12 top-36 opacity-40">
         <img :src="ama" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-2 size-3/12 opacity-70">
+       <div class="absolute row-start-5 col-start-2 size-7/12 opacity-40">
         <img :src="anand" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-3 size-3/12 opacity-70">
+       <div class="absolute row-start-2 col-start-3 top-36 left-36 col-span-3 size-7/12 opacity-40">
         <img :src="anastacia" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-3/12 left-52 opacity-70">
+       <div class="absolute row-start-7 col-start-3 size-7/12 left-52 opacity-40">
         <img :src="andreas" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 size-3/12 top-64 left-10 opacity-70">
+       <div class="absolute row-start-6 col-start-3 size-7/12 top-64 left-10 opacity-50">
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-1 size-3/12 left-32 opacity-70">
+       <div class="absolute row-start-9 col-start-3 col-span-3 top-40 size-9/12 left-32 opacity-50">
         <img :src="camille" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-1 size-2/12 left-10 opacity-70">
+       <div class="absolute row-start-9 col-start-1 size-7/12 left-10 opacity-20">
         <img :src="chiara" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-1 size-3/12 left-44 top-10 opacity-70">
+       <div class="absolute row-start-7 col-start-1 size-7/12 left-44 top-56 opacity-50">
         <img :src="elenor" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-10 col-start-1 size-3/12 left-44 top-20 opacity-70">
+       <div class="absolute row-start-10 col-start-1 size-7/12 left-44 top-20 opacity-50">
         <img :src="elin" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-3/12 left-80 top-36 opacity-70">
+       <div class="absolute row-start-3 col-start-1 size-7/12 left-80 top-36 opacity-20">
         <img :src="eliott" alt="woopss" >
        </div>
        
 
-       <div class="absolute row-start-2 col-start-1 size-3/12 left-80 top-36 opacity-70">
+       <div class="absolute row-start-2 col-start-1 size-7/12 left-40 top-36 opacity-50">
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-2 col-start-2 size-3/12 left-80 top-36 opacity-70">
+       <div class="absolute row-start-6 col-start-1 col-span-3 size-7/12 top-80 opacity-50">
         <img :src="freddy" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-2 size-4/12 left-80 top-36 opacity-70">
+       <div class="absolute row-start-5 col-start-2 size-7/12 left-80 top-36 opacity-50">
         <img :src="gloria" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-2 size-3/12 left-80 top-36 opacity-70">
+       <div class="absolute row-start-6 col-start-3 col-span-2 size-7/12 left-80 top-36 opacity-20">
         <img :src="ida" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-3 size-3/12 left-64 top-36 opacity-70">
+       <div class="absolute row-start-4 col-start-3 size-7/12 left-64 top-36 opacity-50">
         <img :src="johanna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-3/12 left-64 top-36 opacity-70">
+       <div class="absolute row-start-6 col-start-1 size-7/12 left-64 top-36 opacity-35">
         <img :src="judith" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-1 size-3/12 left-5 top-20 opacity-70">
+       <div class="absolute row-start-5 col-start-1 size-7/12 left-5 top-20 opacity-20">
         <img :src="lilian" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-3/12 left-5 top-64 opacity-70">
+       <div class="absolute row-start-6 col-start-1 size-4712 left-5 top opacity-20">
         <img :src="mohammed" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-2 size-3/12 left-5 top-20 opacity-70">
+       <div class="absolute row-start-5 col-start-3 col-span-2 size-7/12 left-56 top-20 opacity-40">
         <img :src="noam" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-3/12 left-5 top-12 opacity-70">
+       <div class="absolute row-start-6 col-start-1 size-7/12 left-5 top-12 opacity-20">
         <img :src="omar" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-1 size-4/12 top-20 left-5 opacity-70">
+       <div class="absolute row-start-7 col-start-1 size-7/12 top-20 left-5 opacity-35">
         <img :src="rebecca" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-8/12 top-20 left-5 opacity-70">
+       <div class="absolute row-start-7 col-start-3 size-12/12 top-20 left-5 opacity-30">
         <img :src="Robin" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-8 col-start-3 size-9/12 top-20 left-5 opacity-70">
+       <div class="absolute row-start-8 col-start-3 size-10/12 col-span-4 top-20 left-5 opacity-50">
         <img :src="vincent" alt="woopss" >
        </div>
 
@@ -284,7 +284,9 @@ import faces08 from '@/assets/pics/faces08.png';
 import bgPic from '@/assets/pics/bgPic.png';
 import bgPic02 from '@/assets/pics/bgPic02.png';
 import graffitiBrush from '@/assets/pics/graffitiBrush.png'; // Add your graffiti brush image
+import paintbrush from '@/assets/pics/paintbrush.png';
 import titel from '@/assets/pics/titel.png';
+
 
 // namesss!!!!!!!!!!!!!!!!!!
 import afra from '@/assets/pics/afra.png';
