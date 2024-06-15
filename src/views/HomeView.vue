@@ -18,8 +18,8 @@
         <h1 class="pl-96">NEVER FREE TO REST </h1>
       </div> -->
 
-      <div class="col-start-1 row-start-1 1 pl-18 opacity-70 ">
-        <img :src="titel" alt="woopss" class="title-image">
+      <div class="col-start-1 row-start-1 1 pl-18 opacity-70 "> 
+        <img :src="titel" alt="woopss" class="title-image"> 
       </div>
 
       <!-- Name tingeling -->
