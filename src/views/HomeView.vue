@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- whole window div -->
-    <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5 bg-neutral-900">
+    <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5">
       <!-- Adjusted the grid rows to accommodate extra gap row -->
 
   
@@ -18,12 +18,12 @@
         <h1 class="pl-96">NEVER FREE TO REST </h1>
       </div> -->
 
-      <div class="col-start-1 row-start-1 1 pl-18 opacity-70 "> 
+      <div class="col-start-1 row-start-1 1 pl-18 opacity-100 "> 
         <img :src="titel" alt="woopss" class="title-image"> 
       </div>
 
       <!-- Name tingeling -->
-      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-white">
+      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-black">
         <p>A contemporary dance performance <br> by Hooman Sharifi</p>
       </div>
 
@@ -33,19 +33,19 @@
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
       <!-- informative stuff -->
-      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-white">
+      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black">
         <h1 class="text-6xl">When</h1>
         <p class="text-1xl">25, 26, 27, 28 and 29 th. of June</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-white">
+      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black">
         <h1 class="text-6xl">Where</h1>
         <p class="text-1xl">Blågårds plads, Copenhagen N</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-white">
+      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-black">
         <h1 class="text-6xl">What time</h1>
         <p class="text-1xl">20:00 until 21:30</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-white">
+      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-black">
         <h1 class="text-6xl">Tickets</h1>
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
@@ -64,26 +64,26 @@
 
 
       <!-- faces images - the united peeps-->
-      <div class="col-start-2 row-start-3 1 pl-18 opacity-100 size-2/5">
+      <div class="col-start-2 row-start-3 1 pl-18 opacity-100 size-2/5 z-50">
         <img :src="faces02" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-3 row-start-4 pl-18 opacity-100 size-2/5 place-self-center">
+      <div class="col-start-3 row-start-4 pl-18 opacity-100 size-2/5 place-self-center z-50">
         <img :src="faces03" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-2 row-start-5 pl-18 opacity-100 size-2/5 place-self-center">
+      <div class="col-start-2 row-start-5 pl-18 opacity-100 size-2/5 place-self-center z-50">
         <img :src="faces04" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-1 row-start-5 size-2/5 place-self-center">
+      <div class="col-start-1 row-start-5 size-2/5 place-self-center z-50">
         <img :src="faces05" alt="woopss" class="w-full h-auto">
       </div>
 
-      <div class="col-start-3 row-start-3 size-2/5 place-self-top">
+      <div class="col-start-3 row-start-3 size-2/5 place-self-top z-50">
         <img :src="faces06" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-2 row-start-4 size-2/5 place-self-center">
+      <div class="col-start-2 row-start-4 size-2/5 place-self-center z-50">
         <img :src="faces07" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-1 row-start-3 size-2/5 place-self-center">
+      <div class="col-start-1 row-start-3 size-2/5 place-self-center z-50">
         <img :src="faces08" alt="woopss" class="w-full h-auto">
       </div>
 
@@ -112,7 +112,7 @@
 
 
       <!-- The "what's the performance about" tamtam -->
-      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 z-50 text-white">
+      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 z-50 text-black">
         <h1 class="text-2xl">Behind the performance</h1> <br>
         <p class="text-sm leading-8">
           Forestillingens titel er et citat af medborgerrettighedsaktivisten James Baldwin. While in battle I’m free, never free to rest. Er livet en kamp på liv og død? <br>
