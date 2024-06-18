@@ -1,14 +1,14 @@
 <template>
   <main>
     <!-- whole window div -->
-    <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5">
+    <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5 bg-gray-200">
       <!-- Adjusted the grid rows to accommodate extra gap row -->
 
   
 
 
       <!-- image welcome page -->
-      <div class="col-start-3 row-start-1 col-span-2 pt-24 pl-18 opacity-100 size-4/5">
+      <div class="col-start-3 row-start-1 col-span-2 pt-24 pl-18 opacity-100 size-4/5 ">
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
@@ -28,14 +28,14 @@
       </div>
 
       <!-- empty rows - so i can separate my things  SPACE -->
-      <div class="col-start-1 col-span-4 row-start-2 h-32"></div> <!-- space between big pic and the info text-->
+      <div class="col-start-1 col-span-4 row-start-2 h-52"></div> <!-- space between big pic and the info text-->
       <div class="col-start-1 col-span-4 row-start-6 h-96"></div> <!-- space between info text and behind bla bla text-->
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
       <!-- informative stuff -->
       <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black">
         <h1 class="text-6xl">When</h1>
-        <p class="text-1xl">25, 26, 27, 28 and 29 th. of June</p>
+        <p class="text-1xl">25 - 29 th. of June</p>
       </div>
       <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black">
         <h1 class="text-6xl">Where</h1>
@@ -64,26 +64,26 @@
 
 
       <!-- faces images - the united peeps-->
-      <div class="col-start-2 row-start-3 1 pl-18 opacity-100 size-2/5 z-50">
+      <div class="col-start-2 row-start-3 1 pl-18 opacity-100 size-2/5 z-0">
         <img :src="faces02" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-3 row-start-4 pl-18 opacity-100 size-2/5 place-self-center z-50">
+      <div class="col-start-3 row-start-4 pl-18 opacity-100 size-2/5 place-self-center z-0">
         <img :src="faces03" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-2 row-start-5 pl-18 opacity-100 size-2/5 place-self-center z-50">
+      <div class="col-start-2 row-start-5 pl-18 opacity-100 size-2/5 place-self-center z-0">
         <img :src="faces04" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-1 row-start-5 size-2/5 place-self-center z-50">
+      <div class="col-start-1 row-start-5 size-2/5 place-self-center z-0">
         <img :src="faces05" alt="woopss" class="w-full h-auto">
       </div>
 
-      <div class="col-start-3 row-start-3 size-2/5 place-self-top z-50">
+      <div class="col-start-3 row-start-3 size-2/5 place-self-top z-0">
         <img :src="faces06" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-2 row-start-4 size-2/5 place-self-center z-50">
+      <div class="col-start-2 row-start-4 size-2/5 place-self-center z-0">
         <img :src="faces07" alt="woopss" class="w-full h-auto">
       </div>
-      <div class="col-start-1 row-start-3 size-2/5 place-self-center z-50">
+      <div class="col-start-1 row-start-3 size-2/5 place-self-center z-0">
         <img :src="faces08" alt="woopss" class="w-full h-auto">
       </div>
 
@@ -107,12 +107,15 @@
         <RouterLink to="/about" class="z-50">About</RouterLink>
       </nav> 
 
+      <div class="col-start-2 row-start-7 col-span-3">
+
+      </div>
 
 
 
 
       <!-- The "what's the performance about" tamtam -->
-      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 z-50 text-black">
+      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 pt-10 z-50 text-black ">
         <h1 class="text-2xl">Behind the performance</h1> <br>
         <p class="text-sm leading-8">
           Forestillingens titel er et citat af medborgerrettighedsaktivisten James Baldwin. While in battle I’m free, never free to rest. Er livet en kamp på liv og død? <br>
@@ -126,100 +129,100 @@
       </div>
       
          <!-- NAMESSS!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
-      <div class="absolute row-start-4 col-start-1 size-7/12 opacity-40">
+      <div class="absolute row-start-4 col-start-1 size-6/12 opacity-30">
               <img :src="afra" alt="woopss" >
             </div>
 
-      <div class="absolute row-start-9 col-start-3 size-7/12 top-36 opacity-40">
+      <div class="absolute row-start-9 col-start-3 size-6/12 top-60 opacity-40">
         <img :src="ama" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-2 size-7/12 opacity-40">
+       <div class="absolute row-start-5 col-start-2 size-6/12 opacity-40">
         <img :src="anand" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-2 col-start-3 top-36 left-36 col-span-3 size-7/12 opacity-40">
+       <div class="absolute row-start-2 col-start-3 top-36 left-36 col-span-3 size-6/12 opacity-10">
         <img :src="anastacia" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-7/12 left-52 opacity-40">
+       <div class="absolute row-start-7 col-start-3 size-6/12 left-52 opacity-20">
         <img :src="andreas" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 size-7/12 top-64 left-10 opacity-50">
+       <div class="absolute row-start-6 col-start-3 size-6/12 left-10 top-80 opacity-50">
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-3 col-span-3 top-40 size-9/12 left-32 opacity-50">
+       <div class="absolute row-start-9 col-start-3 col-span-3 top-40 size-6/12 left-32 opacity-50">
         <img :src="camille" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-1 size-7/12 left-10 opacity-20">
+       <div class="absolute row-start-9 col-start-1 size-6/12 left-10 opacity-10">
         <img :src="chiara" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-1 size-7/12 left-44 top-56 opacity-50">
+       <div class="absolute row-start-7 col-start-1 size-6/12 left-44 top-56 opacity-10">
         <img :src="elenor" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-10 col-start-1 size-7/12 left-44 top-20 opacity-50">
+       <div class="absolute row-start-10 col-start-1 size-6/12 left-44 top-20 opacity-50">
         <img :src="elin" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-3 col-start-1 size-7/12 left-80 top-36 opacity-20">
+       <div class="absolute row-start-3 col-start-1 size-6/12 left-80 top-36 opacity-10">
         <img :src="eliott" alt="woopss" >
        </div>
        
 
-       <div class="absolute row-start-2 col-start-1 size-7/12 left-40 top-36 opacity-50">
+       <div class="absolute row-start-2 col-start-1 size-6/12 left-40 top-36 opacity-50">
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 col-span-3 size-7/12 top-80 opacity-50">
+       <div class="absolute row-start-6 col-start-1 col-span-3 size-6/12 top-72 opacity-50">
         <img :src="freddy" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-2 size-7/12 left-80 top-36 opacity-50">
+       <div class="absolute row-start-5 col-start-2 size-6/12 left-80 top-36 opacity-10">
         <img :src="gloria" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 col-span-2 size-7/12 left-80 top-36 opacity-20">
+       <div class="absolute row-start-6 col-start-3 col-span-2 size-6/12 left-80 top-36 opacity-10">
         <img :src="ida" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-3 size-7/12 left-64 top-36 opacity-50">
+       <div class="absolute row-start-4 col-start-3 size-6/12 left-64 top-36 opacity-10">
         <img :src="johanna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-7/12 left-64 top-36 opacity-35">
+       <div class="absolute row-start-6 col-start-1 size-6/12 left-64 top-36 opacity-55">
         <img :src="judith" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-1 size-7/12 left-5 top-20 opacity-20">
+       <div class="absolute row-start-5 col-start-1 size-6/12 left-5 top-20 opacity-10">
         <img :src="lilian" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-4712 left-5 top opacity-20">
+       <div class="absolute row-start-6 col-start-1 size-6/12 left-5 top opacity-30">
         <img :src="mohammed" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-3 col-span-2 size-7/12 left-56 top-20 opacity-40">
+       <div class="absolute row-start-5 col-start-3 col-span-2 size-6/12 left-56 top-20 opacity-10">
         <img :src="noam" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-7/12 left-5 top-12 opacity-20">
+       <div class="absolute row-start-4 col-start-1 size-3/12 left-5 top-24 opacity-20">
         <img :src="omar" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-1 size-7/12 top-20 left-5 opacity-35">
+       <div class="absolute row-start-7 col-start-1 size-6/12 top-10 left-5 opacity-10">
         <img :src="rebecca" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-12/12 top-20 left-5 opacity-30">
+       <div class="absolute row-start-7 col-start-3 size-10/12 top-36 left-5 opacity-10">
         <img :src="Robin" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-8 col-start-3 size-10/12 col-span-4 top-20 left-5 opacity-50">
+       <div class="absolute row-start-6 col-start-3 size-8/12 col-span-4 top-64 left-5 opacity-30">
         <img :src="vincent" alt="woopss" >
        </div>
 
