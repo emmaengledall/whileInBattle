@@ -8,8 +8,12 @@
 
 
       <!-- image welcome page -->
-      <div class="col-start-3 row-start-1 col-span-2 pt-24 pl-18 opacity-100 size-4/5 ">
+      <div class="relative col-start-3 row-start-1 col-span-2 pt-36 left-36 opacity-80 size-4/5">
         <img :src="faces" alt="woopss" class="w-full h-auto">
+      </div>
+
+      <div class="relative col-start-3 row-start-1 col-span-2 top-96 opacity-80 size-7/12">
+        <img :src="faces10" alt="woopss" class="w-full h-auto">
       </div>
 
       <!-- title for welcome page-->
@@ -18,12 +22,12 @@
         <h1 class="pl-96">NEVER FREE TO REST </h1>
       </div> -->
 
-      <div class="col-start-1 row-start-1 1 pl-18 opacity-100 "> 
+      <div class="col-start-1 row-start-1  pl-12 row-span-2 col-span-2 opacity-100 size-5/12 top-10 "> 
         <img :src="titel" alt="woopss" class="title-image"> 
       </div>
 
       <!-- Name tingeling -->
-      <div class="leading-normal content-center col-start-1 col-span-2 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-black">
+      <div class="leading-normal content-center col-start-1 col-span-4 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-black">
         <p>A contemporary dance performance <br> by Hooman Sharifi</p>
       </div>
 
@@ -33,21 +37,21 @@
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
       <!-- informative stuff -->
-      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black">
-        <h1 class="text-6xl">When</h1>
+      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black pl-20">
+        <h1 class="text-5xl">When</h1>
         <p class="text-1xl">25 - 29 th. of June</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black">
-        <h1 class="text-6xl">Where</h1>
+      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black pl-20">
+        <h1 class="text-5xl">Where</h1>
         <p class="text-1xl">Blågårds plads, Copenhagen N</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-black">
-        <h1 class="text-6xl">What time</h1>
+      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-black pl-20">
+        <h1 class="text-5xl">What time</h1>
         <p class="text-1xl">20:00 until 21:30</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-black">
-        <h1 class="text-6xl">Tickets</h1>
-        <p class="text-1xl">This event is free - <br> if you wish to be seated during the event <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
+      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-black pl-20">
+        <h1 class="text-5xl">Tickets</h1>
+        <p class="text-1xl">This event is free - <br> if you wish to be seated during the act <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
 
 
@@ -76,7 +80,6 @@
       <div class="col-start-1 row-start-5 size-2/5 place-self-center z-0">
         <img :src="faces05" alt="woopss" class="w-full h-auto">
       </div>
-
       <div class="col-start-3 row-start-3 size-2/5 place-self-top z-0">
         <img :src="faces06" alt="woopss" class="w-full h-auto">
       </div>
@@ -86,6 +89,7 @@
       <div class="col-start-1 row-start-3 size-2/5 place-self-center z-0">
         <img :src="faces08" alt="woopss" class="w-full h-auto">
       </div>
+
 
 
       <!-- <div class="col-start-1 row-start-5 size-1/5 place-self-center" style="position: absolute; right: -80px; top: 15px;">
@@ -102,22 +106,20 @@
 
 
       <!-- routerlink to other pages <33 -->
-    <nav>
+    <nav class="z-50 right-96 font-mainFont">
         <!-- <RouterLink to="/" class="z-10">Home</RouterLink>  -->
-        <RouterLink to="/about" class="z-50">About</RouterLink>
-      </nav> 
+        <RouterLink to="/about" >Do you want to know more?</RouterLink>
+    </nav> 
 
-      <div class="col-start-2 row-start-7 col-span-3">
-
-      </div>
+    
 
 
 
 
       <!-- The "what's the performance about" tamtam -->
-      <div class="font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 pt-10 z-50 text-black ">
-        <h1 class="text-2xl">Behind the performance</h1> <br>
-        <p class="text-sm leading-8">
+      <div class="relative top-5 font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 pt-10 z-50 text-black ">
+        <h1 class="text-5xl">Behind the performance</h1> <br>
+        <p class="text-1xl leading-8">
           Forestillingens titel er et citat af medborgerrettighedsaktivisten James Baldwin. While in battle I’m free, never free to rest. Er livet en kamp på liv og død? <br>
           Eller en kraftfuld dansefest, hvis bare vi sætter kroppene fri? <br>
           For den kompromisløse koreograf Sharifi er kunst altid politisk. I en konfliktfyldt tid, hvor grupperinger brydes, slås og går i krig - <br> sætter han ind med et mesterværk om kollektivets sammenhængs- og forandringskraft. <br>
@@ -137,19 +139,19 @@
         <img :src="ama" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-2 size-6/12 opacity-40">
+       <div class="absolute row-start-5 col-start-2 size-6/12 opacity-70">
         <img :src="anand" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-2 col-start-3 top-36 left-36 col-span-3 size-6/12 opacity-10">
+       <div class="absolute row-start-2 col-start-1 top-36 left-10 col-span-3 size-6/12 opacity-10">
         <img :src="anastacia" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-6/12 left-52 opacity-20">
+       <div class="absolute row-start-7 col-start-3 size-6/12 left-52 opacity-70">
         <img :src="andreas" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-1 size-6/12 left-36 top-80 opacity-50">
+       <div class="absolute row-start-6 col-start-1 size-6/12 left-36 top-72 opacity-50">
         <img :src="anna" alt="woopss" >
        </div>
 
@@ -157,15 +159,15 @@
         <img :src="camille" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-1 size-6/12 left-10 opacity-10">
+       <div class="absolute row-start-9 col-start-1 size-6/12 left-10 opacity-0">
         <img :src="chiara" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-2 size-12/12 col-span-4 left-56 top-56 opacity-10">
-        <img :src="elenor" alt="woopss" >
+       <div class="absolute row-start-7 col-start-2 size-12/12 col-span-4 left-56 top-56 opacity-5">
+        <img :src="vincent" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-10 col-start-1 size-6/12 left-44 top-20 opacity-50">
+       <div class="absolute row-start-10 col-start-1 size-6/12 left-44 top-20 opacity-70">
         <img :src="elin" alt="woopss" >
        </div>
 
@@ -174,23 +176,23 @@
        </div>
        
 
-       <div class="absolute row-start-2 col-start-1 size-6/12 left-40 top-36 opacity-50">
+       <div class="absolute row-start-2 col-start-1 size-6/12 left-96 top-36 opacity-70">
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-1 col-span-3 size-6/12 top-80 opacity-50">
+       <div class="absolute row-start-8 col-start-1 col-span-3 top-80 size-6/12 opacity-50">
         <img :src="freddy" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-2 size-6/12 left-96 opacity-10">
+       <div class="absolute row-start-6 col-start-3 col-span-3 size-8/12 left-20 top-20 opacity-10">
         <img :src="gloria" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 col-span-2 size-6/12 left-80 top-36 opacity-10">
+       <div class="absolute row-start-6 col-start-3 col-span-2 size-6/12 left-80 top-56 opacity-10">
         <img :src="ida" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-4 col-start-3 size-6/12 left-64 top-36 opacity-10">
+       <div class="absolute row-start-4 col-start-3 size-6/12 left-10 top-36 opacity-10">
         <img :src="johanna" alt="woopss" >
        </div>
 
@@ -206,7 +208,7 @@
         <img :src="mohammed" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-5 col-start-3 col-span-2 size-6/12 left-56 top-20 opacity-10">
+       <div class="absolute row-start-5 col-start-3 col-span-2 size-6/12 left-20 top-20 opacity-10">
         <img :src="noam" alt="woopss" >
        </div>
 
@@ -214,16 +216,16 @@
         <img :src="omar" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-1 size-6/12 top-10 left-5 opacity-10">
+       <div class="absolute row-start-7 col-start-1 size-6/12 top-10 left-5 opacity-5">
         <img :src="rebecca" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-10/12 top-36 left-5 opacity-10">
+       <div class="absolute row-start-7 col-start-3 size-10/12 top-36 left-5 opacity-0">
         <img :src="Robin" alt="woopss" >
        </div>
 
        <div class="absolute row-start-6 col-start-3 size-10/12 col-span-4 top-80 left-5 opacity-30">
-        <img :src="vincent" alt="woopss" >
+        <img :src="elenor" alt="woopss" >
        </div>
 
 
@@ -289,6 +291,7 @@ import bgPic02 from '@/assets/pics/bgPic02.png';
 import graffitiBrush from '@/assets/pics/graffitiBrush.png'; // Add your graffiti brush image
 import paintbrush from '@/assets/pics/paintbrush.png';
 import titel from '@/assets/pics/titel.png';
+import faces10 from '@/assets/pics/faces10.png'
 
 
 // namesss!!!!!!!!!!!!!!!!!!
@@ -333,6 +336,7 @@ export default {
       bgPic,
       bgPic02,
       titel,
+      faces10,
 
       afra,
       ama,
