@@ -128,7 +128,7 @@
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-8 col-start-3 col-span-3 top-40 size-8/12 left-32 opacity-50">
+       <div class="absolute row-start-8 col-start-3 col-span-3 top-40 size-8/12 left-32 opacity-10">
         <img :src="camille" alt="woopss" >
        </div>
 
