@@ -8,17 +8,17 @@
 
 
       <!-- image nr. 1 welcome page -->
-      <div class="relative col-start-3 row-start-1 col-span-2 pt-36 left-36 opacity-80 size-4/5">
+      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-36 opacity-80 size-4/5">
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
       <!-- Image nr. 2 for welcome page-->
-      <div class="relative col-start-3 row-start-1 col-span-2 top-96 opacity-90 size-7/12">
+      <div class="relative col-start-3 row-start-1 col-span-2 top-64 opacity-70 size-7/12">
         <img :src="faces10" alt="woopss" class="w-full h-auto">
       </div>
 
       <!-- PNG of "while in battle" title-->
-      <div class="col-start-1 row-start-1  pl-12 row-span-2 col-span-2 opacity-100 size-5/12 top-10 "> 
+      <div class="col-start-1 row-start-1  pl-5 row-span-2 col-span-2 opacity-100 size-5/12 top-10 "> 
         <img :src="titel" alt="woopss" class="title-image"> 
       </div>
 
@@ -33,19 +33,19 @@
       <div class="col-start-1 col-span-4 row-start-10 h-72"></div> <!-- space in the bottom of my page -->
 
       <!-- informative stuff -->
-      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black pl-20">
+      <div class="col-start-4 col-span-2 row-start-3 z-10 font-mainFont text-black ">
         <h1 class="text-5xl">When</h1>
         <p class="text-1xl">25 - 29 th. of June</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black pl-20">
+      <div class="col-start-4 col-span-2 row-start-4 z-10 font-mainFont text-black ">
         <h1 class="text-5xl">Where</h1>
         <p class="text-1xl">Blågårds plads, Copenhagen N</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-black pl-20">
+      <div class="col-start-4 col-span-2 row-start-5 z-10 font-mainFont text-black ">
         <h1 class="text-5xl">What time</h1>
         <p class="text-1xl">20:00 until 21:30</p>
       </div>
-      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-black pl-20">
+      <div class="col-start-4 col-span-2 row-start-6 z-10 font-mainFont text-black ">
         <h1 class="text-5xl">Tickets</h1>
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the act <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
