@@ -128,7 +128,7 @@
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-8 col-start-3 col-span-3 top-40 size-8/12 left-32 opacity-10">
+       <div class="absolute row-start-8 col-start-3 col-span-3 top-5 size-8/12 left-32 opacity-10">
         <img :src="camille" alt="woopss" >
        </div>
 
@@ -140,7 +140,7 @@
         <img :src="vincent" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-1 size-6/12 left-20 top-20 opacity-20">
+       <div class="absolute row-start-9 col-start-1 size-6/12 left-24 top-44 opacity-20">
         <img :src="elin" alt="woopss" >
        </div>
 
@@ -153,7 +153,7 @@
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="relative row-start-9 col-start-1 col-span-3 top-64 left-36 size-12/12 opacity-50">
+       <div class="relative row-start-9 col-start-2 col-span-3 top-72 left-36 size-12/12 opacity-50">
         <img :src="freddy" alt="woopss" >
        </div>
 
