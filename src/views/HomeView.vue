@@ -7,21 +7,17 @@
   
 
 
-      <!-- image welcome page -->
+      <!-- image nr. 1 welcome page -->
       <div class="relative col-start-3 row-start-1 col-span-2 pt-36 left-36 opacity-80 size-4/5">
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
-      <div class="relative col-start-3 row-start-1 col-span-2 top-96 opacity-80 size-7/12">
+      <!-- Image nr. 2 for welcome page-->
+      <div class="relative col-start-3 row-start-1 col-span-2 top-96 opacity-90 size-7/12">
         <img :src="faces10" alt="woopss" class="w-full h-auto">
       </div>
 
-      <!-- title for welcome page-->
-     <!--  <div class="text-9xl pl-24 pt-24 leading-normal col-start-1 col-span-4 row-start-1 z-0 font-graffitiFont text-red-600">
-        <h1 class="">WHILE IN BATTLE I'M FREE</h1>
-        <h1 class="pl-96">NEVER FREE TO REST </h1>
-      </div> -->
-
+      <!-- PNG of "while in battle" title-->
       <div class="col-start-1 row-start-1  pl-12 row-span-2 col-span-2 opacity-100 size-5/12 top-10 "> 
         <img :src="titel" alt="woopss" class="title-image"> 
       </div>
@@ -54,15 +50,8 @@
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the act <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
 
+      
 
-
-   <!--    <div class="absolute row-start-5 row-span-full col-start-1 col-span-4 opacity-100 size-11/12 bg-moved-down">
-  <img :src="bgPic" alt="woopss" class="w-screen h-auto">
-    </div> -->
-
-    <!-- <div class="absolute row-start-5 row-span-full col-start-1 col-span-4 opacity-100 size-11/12 bg-moved-down02">
-  <img :src="bgPic02" alt="woopss" class="w-screen h-auto">
-    </div> -->
 
 
 
@@ -92,50 +81,34 @@
 
 
 
-      <!-- <div class="col-start-1 row-start-5 size-1/5 place-self-center" style="position: absolute; right: -80px; top: 15px;">
-        <img :src="faceoutline01" alt="woopss" class="w-full h-auto">
-      </div> -->
-
-     
-
-
-
-
-
-     
-
-
-      <!-- routerlink to other pages <33 -->
-    <nav class="z-50 right-96 font-mainFont">
-        <!-- <RouterLink to="/" class="z-10">Home</RouterLink>  -->
-        <RouterLink to="/about" >Do you want to know more?</RouterLink>
-    </nav> 
-
-    
-
-
-
-
       <!-- The "what's the performance about" tamtam -->
-      <div class="relative top-5 font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-56 pt-10 z-50 text-black ">
+ <div class="relative top-5 font-mainFont col-start-1 row-start-7 col-span-4 row-span-3 pl-64 pt-10 z-50 text-black ">
         <h1 class="text-5xl">Behind the performance</h1> <br>
         <p class="text-1xl leading-8">
-          Forestillingens titel er et citat af medborgerrettighedsaktivisten James Baldwin. While in battle I’m free, never free to rest. Er livet en kamp på liv og død? <br>
-          Eller en kraftfuld dansefest, hvis bare vi sætter kroppene fri? <br>
-          For den kompromisløse koreograf Sharifi er kunst altid politisk. I en konfliktfyldt tid, hvor grupperinger brydes, slås og går i krig - <br> sætter han ind med et mesterværk om kollektivets sammenhængs- og forandringskraft. <br>
-          Om, hvordan der ud af vores forskelle opstår nye muligheder, hvis vi giver plads. Om, hvordan vi alle kæmper for at være frie i verden. I fællesskab, men med hver vores stemme. <br>
-          Danserne hvirvler rundt mellem hinanden i intense, sveddryppende koreografier, mens vi som publikum bliver trukket ind i deres univers. <br>
-          Vi omringer danserne, mens det dragende soundtrack omslutter os. Neda Sanai har skabt sin egen, særlige musik ved at sample et unikt lydtæppe af iransk folkemusik. <br>
-          20 kroppe i konstant bevægelse skaber et nomadisk og menneskeligt ritual, der insisterer på, at vi er en del af den samme uendelige krop, og at vi sætter dens puls fri.
+          The title of the performance is a quote from civil rights activist James Baldwin: "While in battle I’m free, never free to rest." <br>
+          Is life a fight to the death? Or a powerful dance party if only we set our bodies free? For the uncompromising choreographer Sharifi, <br>
+           art is always political. In a time of conflict, where groups clash, fight, and go to war, he presents a masterpiece about <br>
+           the collective's power to unify and transform. It's about how new possibilities arise from our differences if we make space for them. <br>
+           It's about how we all struggle to be free in the world. Together, but with our own voices.
+          <br>
+          The dancers swirl around each other in intense, sweat-drenched choreographies, drawing us as the audience into their universe. <br>
+          We surround the dancers, while the captivating soundtrack envelops us. Neda Sanai has created her own unique music by sampling <br>
+          a distinct soundscape of Iranian folk music. Twenty bodies in constant motion create a nomadic and human ritual that insists we are part <br>
+          of the same infinite body and that we release its pulse.
         </p>
-      </div>
+
+        <nav class="underline">
+        <!-- <RouterLink to="/" class="z-10">Home</RouterLink>  -->
+        <RouterLink to="/about" >Do you want to know more?</RouterLink>
+       </nav> 
+ </div>
       
          <!-- NAMESSS!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
       <div class="absolute row-start-4 col-start-1 size-6/12 opacity-30">
               <img :src="afra" alt="woopss" >
             </div>
 
-      <div class="absolute row-start-9 col-start-3 size-6/12 top-60 opacity-40">
+      <div class="relative row-start-8 col-start-3 size-12/12 left-44 top-72 opacity-40">
         <img :src="ama" alt="woopss" >
        </div>
 
@@ -155,11 +128,11 @@
         <img :src="anna" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-3 col-span-3 top-40 size-8/12 left-32 opacity-50">
+       <div class="absolute row-start-8 col-start-3 col-span-3 top-40 size-8/12 left-32 opacity-50">
         <img :src="camille" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-9 col-start-1 size-6/12 left-10 opacity-0">
+       <div class="absolute row-start-8 col-start-1 size-6/12 left-10 opacity-0">
         <img :src="chiara" alt="woopss" >
        </div>
 
@@ -167,7 +140,7 @@
         <img :src="vincent" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-10 col-start-1 size-6/12 left-44 top-20 opacity-70">
+       <div class="absolute row-start-9 col-start-1 size-6/12 left-20 top-20 opacity-20">
         <img :src="elin" alt="woopss" >
        </div>
 
@@ -180,7 +153,7 @@
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-8 col-start-1 col-span-3 top-80 size-6/12 opacity-50">
+       <div class="relative row-start-9 col-start-1 col-span-3 top-64 left-36 size-12/12 opacity-50">
         <img :src="freddy" alt="woopss" >
        </div>
 
@@ -220,43 +193,18 @@
         <img :src="rebecca" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-3 size-10/12 top-36 left-5 opacity-0">
+       <div class="relative row-start-7 col-start-3 size-10/12 top-36 left-5 opacity-0">
         <img :src="Robin" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-6 col-start-3 size-10/12 col-span-4 top-80 left-5 opacity-30">
+       <div class="relative row-start-6 col-start-3 size-10/12 col-span-4 top-80 left-5 opacity-30">
         <img :src="elenor" alt="woopss" >
        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+ </div>
 
    
-      
-
-
-
-
+    
       <!-- my canvas <33 -->
       <div class="absolute inset-0 w-screen h-screen z-10">
         <canvas ref="canvas"></canvas>
@@ -264,9 +212,6 @@
 
   </main>
 </template>
-
-
-
 
 
 

@@ -1,6 +1,5 @@
 <script setup>
-import homann from '../assets/pics/homann.png';
-import cullberg from '../assets/pics/cullberg.png';
+import illu01 from '../assets/pics/illu01.png';
 </script>
 
 <template>
@@ -10,9 +9,6 @@ import cullberg from '../assets/pics/cullberg.png';
       <h1 class="font-mainFont text-sm">Meet the choreographer</h1>
     </div>
 
-    <div class=" relative col-start-2 row-start-2 row-span-10 col-span-5 bottom-10 opacity-30">
-      <img :src="homann" alt="woops" class="w-[1920px] h-auto" />
-    </div>
 
     <div class="relative col-start-1 row-start-3 col-span-3 font-mainFont left-40 leading-7">
       <p>Choreographer Hooman Sharifi (NO) was born in Tehran in 1973 and came alone to Norway at the <br>
@@ -30,18 +26,21 @@ import cullberg from '../assets/pics/cullberg.png';
       <h1 class="font-mainFont text-sm">The dance ensemble</h1>
     </div>
 
-    <div class="relative col-start-2 row-start-7 row-span-10 col-span-5 bottom-10 opacity-30 left-56">
-      <img :src="cullberg" alt="woops" class="w-[720px] h-auto" />
-    </div>
-
+    
     <div class="relative col-start-1 row-start-8 col-span-3 font-mainFont left-40 leading-7 top-7">
       <p>
         is an internationally recognized dance company founded in 1967 and based in Stockholm—a historic institution in Swedish <br>
         and international performing arts, continually managing to speak to its contemporary audience across divides. <br>
         Their repertoire comments on and reflects our society, and they continuously work to ensure that as many people as possible, <br>
-         both in Sweden and internationally, can enjoy contemporary dance.
+        both in Sweden and internationally, can enjoy contemporary dance.
       </p>
     </div>
+
+    <div class="relative col-start-2 row-start-3 row-span-10 col-span-3 bottom-10 opacity-10 left-36">
+      <img :src="illu01" alt="woops" class="w-[1020px] h-auto" />
+    </div>
+
+
   </div>
 </template>
 
