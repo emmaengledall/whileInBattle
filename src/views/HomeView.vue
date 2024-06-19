@@ -13,7 +13,7 @@
       </div>
 
       <!-- Image nr. 2 for welcome page-->
-      <div class="relative col-start-3 row-start-1 col-span-2 top-56 opacity-70 size-7/12">
+      <div class="relative col-start-3 row-start-1 col-span-2 top-64 opacity-70 size-7/12">
         <img :src="faces10" alt="woopss" class="w-full h-auto">
       </div>
 
