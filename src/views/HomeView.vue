@@ -11,9 +11,6 @@
       </div>
 
 
-      <div class="relative row-start-1 col-start-3 col-span-3 top-96 pt-64 left-24 size-12/12 opacity-40 size-3/12">
-        <img :src="click" alt="woopss" >
-       </div>
 
 
       <!-- PNG of "while in battle" title-->
@@ -269,7 +266,7 @@ import rebecca from '@/assets/pics/rebecca.png';
 import Robin from '@/assets/pics/Robin.png';
 import vincent from '@/assets/pics/vincent.png';
 
-import click from '@/assets/pics/click.png';
+
 
 
 
@@ -279,7 +276,6 @@ export default {
   data() {
     return {
 
-      click,
 
       faces,
       faces02,
