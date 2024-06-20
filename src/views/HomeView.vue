@@ -8,7 +8,7 @@
 
 
       <!-- image nr. 1 welcome page -->
-      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-16 opacity-70 size-4/5">
+      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-16 opacity-80 size-4/5">
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
