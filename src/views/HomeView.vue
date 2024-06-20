@@ -89,7 +89,7 @@
           Is life a fight to the death? Or a powerful dance party if only we set our bodies free? For the uncompromising choreographer Sharifi, <br>
            art is always political. In a time of conflict, where groups clash, fight, and go to war, he presents a masterpiece about <br>
            the collective's power to unify and transform. It's about how new possibilities arise from our differences if we make space for them. <br>
-           It's about how we all struggle to be free in the world. Together, but with our own voices.
+           It's about how we all struggle to be free in the world. Together, but with our own voices. <br>
           <br>
           The dancers swirl around each other in intense, sweat-drenched choreographies, drawing us as the audience into their universe. <br>
           We surround the dancers, while the captivating soundtrack envelops us. Neda Sanai has created her own unique music by sampling <br>
