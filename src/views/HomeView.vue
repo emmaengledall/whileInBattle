@@ -20,7 +20,7 @@
 
       <!-- Name tingeling -->
       <div class="leading-normal content-center col-start-1 col-span-4 row-start-1 pl-36 pt-96 z-0 flex items-end font-mainFont text-1xl text-black">
-        <p>A contemporary dance performance <br> by Hooman Sharifi</p>
+        <p>A contemporary dance performance <br> by Hooman Sharifi </p>
       </div>
 
       <!-- empty rows - so i can separate my things  SPACE -->
@@ -87,9 +87,8 @@
         <p class="text-1xl leading-8">
           The title of the performance is a quote from civil rights activist James Baldwin: "While in battle I’m free, never free to rest." <br>
           Is life a fight to the death? Or a powerful dance party if only we set our bodies free? For the uncompromising choreographer Sharifi, <br>
-           art is always political. In a time of conflict, where groups clash, fight, and go to war, he presents a masterpiece about <br>
-           the collective's power to unify and transform. It's about how new possibilities arise from our differences if we make space for them. <br>
-           It's about how we all struggle to be free in the world. Together, but with our own voices.
+           art is always political. In a time of conflict, where groups clash, fight, and go to war, he presents a masterpiece about the collective's power to unify and transform. <br>
+           It's about how new possibilities arise from our differences if we make space for them. It's about how we all struggle to be free in the world. Together, but with our own voices. <br>
           <br>
           The dancers swirl around each other in intense, sweat-drenched choreographies, drawing us as the audience into their universe. <br>
           We surround the dancers, while the captivating soundtrack envelops us. Neda Sanai has created her own unique music by sampling <br>
