@@ -8,17 +8,17 @@
 
 
       <!-- image nr. 1 welcome page -->
-      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-36 opacity-80 size-4/5">
+      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-16 opacity-70 size-4/5">
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
       <!-- Image nr. 2 for welcome page-->
-      <div class="relative col-start-3 row-start-1 col-span-2 top-80 right-10 opacity-70 size-7/12">
+      <!-- <div class="relative col-start-3 row-start-1 col-span-2 top-80 right-10 opacity-70 size-7/12">
         <img :src="faces10" alt="woopss" class="w-full h-auto">
-      </div>
+      </div> -->
 
       <!-- PNG of "while in battle" title-->
-      <div class="col-start-1 row-start-1  pl-5 row-span-2 col-span-2 opacity-100 size-5/12 top-10 "> 
+      <div class="col-start-1 row-start-1  pl-5 row-span-2 col-span-2 opacity-100 size-5/12 pt-24 "> 
         <img :src="titel" alt="woopss" class="title-image"> 
       </div>
 
@@ -153,7 +153,7 @@
         <img :src="eszter" alt="woopss" >
        </div>
 
-       <div class="relative row-start-9 col-start-2 col-span-3 top-72 left-36 size-12/12 opacity-50">
+       <div class="relative row-start-9 col-start-2 col-span-3 top-72 left-36 size-12/12 opacity-60">
         <img :src="freddy" alt="woopss" >
        </div>
 

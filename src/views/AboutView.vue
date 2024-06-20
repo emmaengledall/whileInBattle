@@ -36,7 +36,7 @@ import illu01 from '../assets/pics/illu01.png';
       </p>
     </div>
 
-    <div class="relative col-start-2 row-start-3 row-span-10 col-span-3 bottom-10 opacity-10 left-36">
+    <div class="relative col-start-2 row-start-2 row-span-10 col-span-3 bottom-10 opacity-10 left-36">
       <img :src="illu01" alt="woops" class="w-[1020px] h-auto" />
     </div>
 
