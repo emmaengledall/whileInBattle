@@ -1,21 +1,20 @@
 <template>
-  <main>
+  <main >
+   
     <!-- whole window div -->
     <div class="relative w-full h-full grid grid-cols-4 grid-rows-24 gap-y-5 bg-gray-200">
-      <!-- Adjusted the grid rows to accommodate extra gap row -->
-
-  
-
+    
 
       <!-- image nr. 1 welcome page -->
-      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-16 opacity-80 size-4/5">
+      <div class="relative col-start-3 row-start-1 col-span-2  pt-24 left-16 opacity-80 size-4/5"> 
         <img :src="faces" alt="woopss" class="w-full h-auto">
       </div>
 
-      <!-- Image nr. 2 for welcome page-->
-      <!-- <div class="relative col-start-3 row-start-1 col-span-2 top-80 right-10 opacity-70 size-7/12">
-        <img :src="faces10" alt="woopss" class="w-full h-auto">
-      </div> -->
+
+      <div class="relative row-start-1 col-start-3 col-span-3 top-96 pt-64 left-24 size-12/12 opacity-40 size-3/12">
+        <img :src="click" alt="woopss" >
+       </div>
+
 
       <!-- PNG of "while in battle" title-->
       <div class="col-start-1 row-start-1  pl-5 row-span-2 col-span-2 opacity-100 size-5/12 pt-24 "> 
@@ -50,7 +49,11 @@
         <p class="text-1xl">This event is free - <br> if you wish to be seated during the act <br> please <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/s/6655dc75e820523242408abe?lang=da" class="underline">click here</a></p>
       </div>
 
-      
+      <div>
+        <p v-if="showText" class="absolute z-10 px-2 py-1 text-sm bg-gray-800 text-white rounded shadow-lg">
+      {{ text }}
+    </p>
+      </div>
 
 
 
@@ -136,7 +139,7 @@
         <img :src="chiara" alt="woopss" >
        </div>
 
-       <div class="absolute row-start-7 col-start-2 size-12/12 col-span-4 left-56 top-56 opacity-5">
+       <div class="absolute row-start-7 col-start-2 size-12/12 col-span-4 left-32 top-56 opacity-5">
         <img :src="vincent" alt="woopss" >
        </div>
 
@@ -221,6 +224,7 @@
 
 
 <script>
+
 import faceoutline01 from '@/assets/pics/faceoutline01.png'; 
 
 import faces from '@/assets/pics/faces.png';
@@ -265,11 +269,18 @@ import rebecca from '@/assets/pics/rebecca.png';
 import Robin from '@/assets/pics/Robin.png';
 import vincent from '@/assets/pics/vincent.png';
 
+import click from '@/assets/pics/click.png';
+
+
 
 
 export default {
+  
   data() {
     return {
+
+      click,
+
       faces,
       faces02,
       faces03,
@@ -340,6 +351,7 @@ export default {
   },
 
   methods: {
+
     startDrawing(event) {
       this.drawing = true;
       this.draw(event); // Draw a dot on mouse click position
@@ -371,20 +383,19 @@ export default {
 
 
 <style scoped>
-/* Add your CSS styles here */
+
 .bg-moved-down {
-  margin-top: 880px; /* Adjust this value as needed */
   margin-left: 40px;
 }
 
 .bg-moved-down02 {
-  margin-top: 1630px; /* Adjust this value as needed */
+  margin-top: 1630px; 
   margin-left: 40px;
 }
 
 .title-image {
-  transform: scale(3); /* Scale the image to 3 times its original size */
-  transform-origin: top left; /* Adjust the origin to control where the scaling is applied from */
+  transform: scale(3); 
+  transform-origin: top left; 
   margin-left: 70px;
   margin-top: 50px;
 }
